@@ -57,6 +57,12 @@ hubspot.contacts.get(function(err, results) {
 ### Companies
 
 ```javascript
+hubspot.blogPosts.get(opts, cb)
+hubspot.blogPosts.getAll(cb)
+hubspot.blogPosts.getById(id, cb)
+```
+
+```javascript
 hubspot.companies.get(opts, cb)
 hubspot.companies.getById(id, cb)
 hubspot.companies.getRecentlyCreated(opts, cb)
