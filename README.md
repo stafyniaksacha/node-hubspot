@@ -65,6 +65,17 @@ hubspot.blogPosts.getById(id, cb)
 hubspot.blogPosts.update(id, data, cb)
 ```
 
+### Blog Authors
+
+```javascript
+hubspot.blogAuthors.create(data, cb)
+hubspot.blogAuthors.delete(id, cb)
+hubspot.blogAuthors.get(opts, cb)
+hubspot.blogAuthors.getAll(cb)
+hubspot.blogAuthors.getById(id, cb)
+hubspot.blogAuthors.update(id, data, cb)
+```
+
 ### Companies
 
 ```javascript
