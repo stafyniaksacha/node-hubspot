@@ -54,13 +54,18 @@ hubspot.contacts.get(function(err, results) {
 
 ## Available Methods
 
-### Companies
+### Blog Posts
 
 ```javascript
+hubspot.blogPosts.create(data, cb)
+hubspot.blogPosts.delete(id, cb)
 hubspot.blogPosts.get(opts, cb)
 hubspot.blogPosts.getAll(cb)
 hubspot.blogPosts.getById(id, cb)
+hubspot.blogPosts.update(id, data, cb)
 ```
+
+### Companies
 
 ```javascript
 hubspot.companies.get(opts, cb)
